@@ -1,0 +1,37 @@
+.partners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 10%;
+    position: relative; /* Define o contêiner como relativo */
+}
+
+.partners h2 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 5%;
+    font-weight: 300;
+}
+
+.partners-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+.partners-grid img {
+    width: 65px;
+}
+
+@media screen and (min-width: 768px) {
+    .partners-grid {
+        gap: 50px;
+    }
+
+    .partners-grid img {
+        width: 150px;
+    }
+}

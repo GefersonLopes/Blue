@@ -1,0 +1,82 @@
+.front-img {
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .front-img {
+    background-image: url(../../assets/Front/front.png);
+    justify-content: end;
+    align-items: end;
+    height: 557px;
+  }
+}
+
+.front {
+  width: 80%;
+  height: 100%;
+  background-color: #0b76bb;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 25px;
+  height: 300px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .front {
+    height: 300px;
+    width: 350px;
+    margin: auto 0;
+    margin-right: 10%;
+    background-color: #0b75bbda;
+  }
+}
+
+.front h3 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    max-width: 277px;
+}
+
+.front p {
+    font-weight: 300;
+    margin: 0;
+    max-width: 277px;
+}
+
+.front button {
+    padding: 10px 20px;
+    border: #fff solid 2px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.front-decorate {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  bottom: 0;
+  right: 0;
+  border: #001638 solid 7px;
+  background-color: #00CCFF;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .front-decorate {
+    border: #5b5c5ecc solid 7px;
+  }
+}
